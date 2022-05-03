@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Hybrid
+Bundle-SymbolicName: org.eclipse.epsilon.cbp.hybrid
+Bundle-Version: 1.0.0.qualifier
+Export-Package: org.eclipse.epsilon.cbp.hybrid,
+ org.eclipse.epsilon.cbp.hybrid.xmi
+Require-Bundle: org.eclipse.emf.ecore,
+ org.eclipse.epsilon.cbp,
+ com.google.guava,
+ org.eclipse.emf.ecore.xmi,
+ org.eclipse.emf.compare,
+ org.apache.commons.io
+Import-Package: org.apache.commons.io
+Bundle-ClassPath: lib/jsr305-3.0.1.jar
